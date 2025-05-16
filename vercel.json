@@ -1,5 +1,7 @@
 {
   "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+
     { "source": "/admin", "destination": "/" },
     { "source": "/admin/(.*)", "destination": "/" },
     { "source": "/login", "destination": "/" },
@@ -9,6 +11,7 @@
     { "source": "/tray", "destination": "/" },
     { "source": "/checkout", "destination": "/" },
     { "source": "/success", "destination": "/" },
-    { "source": "/(.*)", "destination": "/" }
+
+    { "source": "/", "destination": "/" }
   ]
 }
