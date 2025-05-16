@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "/" },
+    { "source": "/admin/(.*)", "destination": "/" },
+    { "source": "/login", "destination": "/" },
+    { "source": "/register", "destination": "/" },
+    { "source": "/scan", "destination": "/" },
+    { "source": "/menu/(.*)", "destination": "/" },
+    { "source": "/tray", "destination": "/" },
+    { "source": "/checkout", "destination": "/" },
+    { "source": "/success", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
